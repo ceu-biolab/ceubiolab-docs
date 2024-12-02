@@ -90,6 +90,9 @@ Also add the following plugins:
 In this example it is *central*.
 
 ### Deploy and publish
+
+Please make sure that maven is configured in your system path. 
+
 To deploy to Maven Central Repository run **mvn clean deploy -Dgpg.skip=false** and wait for it to appear in https://central.sonatype.com/publishing/deployments.
 
 To publish, click on the *Publish* botton to the right of the Deployment and wait, as it takes some time.
